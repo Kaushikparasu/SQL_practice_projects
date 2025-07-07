@@ -28,33 +28,34 @@ This project focuses on mastering **SQL joins** using a realistic, multi-table d
 
 ## ✅ Questions Solved
 
-### Day 1 – Questions 1 to 5
-
-1. **List all customers along with their total number of orders.**
-2. **Show total spending for each customer calculated from `order_items`.**
-3. **Find customers who raised support tickets but never placed an order.**
-4. **Find customers with >1 order and >1 support ticket.**
-5. **List orders where computed total from `order_items` doesn't match `orders.total_amount`.**
-
-🔍 View solution in [`answers_day1.sql`](./answers_day1.sql)
-
----
-
-## 🗓️ Daily Plan
-
-| Date       | Questions Solved |
-|------------|------------------|
-| `2025-07-06` | 1–5              |
-| `2025-07-07` | 6–10 *(upcoming)* |
+1. List all customers along with their total number of orders  
+2. Show total spending per customer calculated from `order_items`  
+3. Find customers who raised support tickets but never placed an order  
+4. Customers with >1 order and >1 support ticket  
+5. Orders where computed item total ≠ recorded total  
+6. Support tickets with customer name and order count  
+7. Product count and quantity per order  
+8. Customers who bought the same product at different prices  
+9. Most ordered product by quantity  
+10. Revenue by customer country  
+11. Customers who placed orders with no items  
+12. Orders placed by unknown customers  
+13. Customers who placed multiple orders in the same month  
+14. Avg. unit price and distinct order count per product  
+15. Join all 4 tables: customer name, order ID, product, quantity, issue, and ticket status  
 
 ---
 
+## 🗂️ File Structure
 
-Compatible with **MySQL 8+**, but can be adapted for PostgreSQL or SQLite.
+| File                       | Description                              |
+|---------------------------|------------------------------------------|
+| `project_1_joins_clean.sql` | Main SQL solution file (clean version)   |
+| `README.md`               | This file                                |
 
 ---
 
 ## 🧠 Author
 
-**KAUSHIK**  
+**Indhra Sena Reddy**  
 Aspiring Data Analyst | SQL • EDA • Visualization
